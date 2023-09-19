@@ -8,6 +8,7 @@ Extends python's json library to serialize and deserialize complex and range obj
 In the root directory, run the following: pip install -e .
 
 # Sample Code
+```python
 import json
 
 class BetterEncoder(json.JSONEncoder):
@@ -21,3 +22,4 @@ def dumps(data, cls=BetterEncoder):
 
 def loads(data, cls=BetterDecoder):
     return json.loads(data, cls=cls)
+```
