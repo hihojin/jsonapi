@@ -3,4 +3,5 @@
 my_venv*
 .pytest_cache*
 dist/
-
+src/*.egg-info
+/tests/__pycache__*
