@@ -2,3 +2,5 @@
 .DS_Store
 my_venv*
 .pytest_cache*
+dist/
+
